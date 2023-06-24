@@ -1,0 +1,29 @@
+{
+  "name": "random-str-msg-ts",
+  "version": "1.0.0",
+  "description": "Random string messages for https://www.npmjs.com/ site.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node --project tsconfig.json ./bin/global.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaroldZS/random-str-msg-ts.git"
+  },
+  "keywords": [],
+  "author": "Harold Zurita Simon <haroldzs1024@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HaroldZS/random-str-msg-ts/issues"
+  },
+  "homepage": "https://github.com/HaroldZS/random-str-msg-ts#readme",
+  "bin": {
+    "random-str-msg-ts": "./bin/global.ts"
+  },
+  "preferGlobal": true,
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.4"
+  }
+}
